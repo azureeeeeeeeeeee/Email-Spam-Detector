@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spam Email Detecotr - BERT</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='main.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Email Spam Detector (ENG)</h1>
+
+    <p id="intro">
+      A simple email spam detector using transfer learning with
+      <a
+        href="https://kaggle.com/models/tensorflow/bert/frameworks/TensorFlow2/variations/en-uncased-preprocess/versions/1"
+        >Google Bert</a
+      >
+      and TensorFlow
+    </p>
+
+    <form action="{{ url_for('predict') }}" method="post">
+      <label for="email-input">Input the email below : </label>
+      <textarea
+        name="email"
+        id="email-input"
+        cols="30"
+        rows="10"
+        placeholder="Your email here"
+        required
+      ></textarea>
+
+      <input
+        type="submit"
+        value="Check"
+        style="
+          margin-top: 10px;
+          border-radius: 5px;
+          background-color: aliceblue;
+        "
+      />
+    </form>
+
+    {% if output %}
+    <p>Spam Probability : {{ output }}%</p>
+    {% endif %}
+  </body>
+</html>
