@@ -22,5 +22,5 @@ tensorboard-plugin-wit==1.8.1
 tensorflow==2.15.0
 tensorflow-estimator==2.15.0
 tensorflow-hub==0.15.0
-tensorflow-text==2.10.0
+tensorflow-text==2.15.0
 Werkzeug==3.0.1
