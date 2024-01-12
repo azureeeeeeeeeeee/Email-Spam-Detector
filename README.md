@@ -22,3 +22,6 @@
 <p><code>python app.py</code></p>
 
 <img width="461" alt="image" src="https://github.com/azureeeeeeeeeeee/Email-Spam-Detector/assets/116809034/c0b91c3b-2326-4235-882d-34ce50170019">
+<p>Note :
+I know, im not good at ui design.
+</p>
