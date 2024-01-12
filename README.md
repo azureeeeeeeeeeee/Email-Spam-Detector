@@ -17,9 +17,9 @@
 <h2>Usage</h2>
 <p>
  Install all dependencies with
- <code>pip install -r requirements.txt</code>
 </p>
+<code>pip install -r requirements.txt</code>
 <p>
   Run the project with 
-  <code>python app.py</code>
 </p>
+<code>python app.py</code>
