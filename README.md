@@ -15,11 +15,8 @@
 <p>The model has a test score of 0.9652 on a new unseen data</p>
 
 <h2>Usage</h2>
-<p>
- Install all dependencies with
-</p>
-<code>pip install -r requirements.txt</code>
-<p>
-  Run the project with 
-</p>
+<p style="margin-bottom: none">Install all dependencies with</p>
+<code style="margin-bottom: 10px">pip install -r requirements.txt</code>
+
+<p style="margin-bottom: none">Run the project with </p>
 <code>python app.py</code>
